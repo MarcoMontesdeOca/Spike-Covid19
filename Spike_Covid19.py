@@ -57,7 +57,7 @@ with open('protein_source.csv', mode='w') as csv_file:
 ## Second Part: Data Formatting
 """
 Takes as input .csv file including "protein id", "country of origin", and "collection date".
-Extract amino acid sequence and outputs Multi Fasta File.
+Extracts amino acid sequence and outputs Multi Fasta File.
 """
 
 # Open accession id csv file
