@@ -4,8 +4,8 @@ Takes as input a GenPept file (.gp) obtained from https://www.ncbi.nlm.nih.gov/p
 "surface glycoprotein" and "Severe acute respiratory syndrome coronavirus 2". Such file can be downloaded from the "Send to:" link
 at the results page. Once downloaded, the file extension should be manually changed from ".gp" to ".txt".
 
-Extracts "country of origin" and "collection date" information from input .txt file.
-Exports them as a .csv file including protein ids for further amino acid sequence extraction in the Second Part
+Outputs a .csv file including protein id, "country of origin", and "collection date" for further amino acid sequence 
+extraction in the Second Part
 """
 
 import os
