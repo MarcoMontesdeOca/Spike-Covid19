@@ -8,7 +8,6 @@ Outputs a .csv file including protein id, "country of origin", and "collection d
 extraction and formatting in the Second Part
 """
 
-import os
 # Open GenPept full list
 file = open("spike protein sequences.txt","r")
 raw_string = file.read()
