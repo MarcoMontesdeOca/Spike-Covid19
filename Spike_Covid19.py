@@ -5,7 +5,7 @@ Takes as input a GenPept file obtained from https://www.ncbi.nlm.nih.gov/protein
 at the results page. Once downloaded, the file extension should be manually changed from ".gp" to ".txt".
 
 Outputs a .csv file including protein id, "country of origin", and "collection date" for further amino acid sequence 
-extraction in the Second Part
+extraction and formatting in the Second Part
 """
 
 import os
