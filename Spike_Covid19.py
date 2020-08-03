@@ -96,3 +96,4 @@ def writeseq(filename, Tdict):
         text_file.write(f'>{key}\n')
         text_file.write(seq + '\n')
     text_file.close()
+writeseq("spike_samples.fasta", proteins)
